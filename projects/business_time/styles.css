@@ -26,10 +26,10 @@ body {
     -moz-transition: opacity .50s ease-in-out;
     -webkit-transition: opacity .50s ease-in-out;
     margin-right: -50px;
-    
     max-width: 80%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: auto\9;
+    /* ie8 */
 }
 
 .image1:hover {
@@ -93,7 +93,8 @@ p {
     background: #fff;
 }
 
-.banner, .banner2 {
+.banner,
+.banner2 {
     font-family: Electra LT Std;
     font-size: 28px;
     text-align: left;
@@ -116,7 +117,7 @@ p {
 }
 
 .break {
-    background: rgba(118,84,86, 0.7);
+    background: rgba(118, 84, 86, 0.7);
     height: 20px;
     -moz-border-radius: 300px;
     border-radius: 300px;
@@ -124,6 +125,7 @@ p {
 
 
 /*PAGE CONTENT*/
+
 .global.indent .container1 {
     height: auto;
     background-color: #f9fcfc;
@@ -133,7 +135,9 @@ p {
     display: block;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -145,14 +149,12 @@ p {
 }
 
 
-
-
-
-
-
-
 /************************************************************************/
+
+
 /*NAV BAR*/
+
+
 /* A simple, css only, (some-what) responsive menu */
 
 .wrap {
@@ -287,7 +289,11 @@ ul.primary li:hover ul {
 
 
 /* keeps the tab background white */
+
+
 /*TEXT COLOR ON HOVER IS HERE*/
+
+
 /*TEXT BOX BACKGROUND COLOR*/
 
 ul.primary li:hover a {
@@ -343,25 +349,60 @@ ul.primary li:hover>a {
 }
 
 
-
 /*MEDIA RESIZING*/
-@media (min-width: 1220px)
-.container {
+
+@media (min-width: 1220px) .container {
     padding: 0;
 }
-@media (max-width: 1300px) and (min-width: 1220px)
-.container {
+
+@media (max-width: 1300px) and (min-width: 1220px) .container {
     width: 1210px;
 }
-@media (min-width: 1220px)
-.container {
+
+@media (min-width: 1220px) .container {
     max-width: 1300px;
 }
-@media (min-width: 992px)
-.container {
+
+@media (min-width: 992px) .container {
     max-width: 1100px;
 }
-@media (min-width: 768px)
-.container {
+
+@media (min-width: 768px) .container {
     max-width: 900px;
+}
+
+@media (min-width: 1220px) {
+    body {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 1220px) {
+    body {
+        width: 1210px;
+    }
+}
+
+@media (min-width: 1220px) {
+    body {
+        max-width: 1300px;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        max-width: 1100px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        max-width: 900px;
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        height: 500px;
+    }
 }
