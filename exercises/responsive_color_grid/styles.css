@@ -1,0 +1,104 @@
+.color1 {
+    box-sizing: border-box;
+    font-size: 0px;
+    float: left;
+    width: 97%;
+    height: 120px;
+    margin: 6px;
+    border: 1px solid rgb(0, 0, 10);
+}
+
+.color2 {
+    box-sizing: border-box;
+    font-size: 0px;
+    float: left;
+    width: 23.1%;
+    height: 120px;
+    margin: 6px;
+    border: 1px solid rgb(0, 0, 10);
+}
+
+.color3 {
+    box-sizing: border-box;
+    font-size: 0px;
+    float: left;
+    width: 47.3%;
+    height: 120px;
+    margin: 6px;
+    border: 1px solid rgb(0, 0, 10);
+}
+
+.color4 {
+    box-sizing: border-box;
+    font-size: 0px;
+    float: left;
+    width: 73%;
+    height: 120px;
+    margin: 6px;
+    border: 1px solid rgb(0, 0, 10);
+}
+
+.color5 {
+    box-sizing: border-box;
+    font-size: 0px;
+    float: left;
+    width: 21.6%;
+    height: 120px;
+    margin: 6px;
+    border: 1px solid rgb(0, 0, 10);
+}
+
+.pink {
+    background: #FFBDDD;
+}
+
+.hotpink {
+    background: #FF31C1;
+}
+
+.babyblue {
+    background: #50D4FF;
+}
+
+.limegreen {
+    background: #4BCC64;
+}
+
+.orange {
+    background: #FF9900;
+}
+
+@media (max-width: 768px) {
+    .color1 {
+        width: 100%;
+        height: 120px;
+    }
+}
+
+@media (max-width: 900px) {
+    .color2 {
+        width: 100%;
+        height: 120px;
+    }
+}
+
+@media (max-width: 900px) {
+    .color3 {
+        width: 100%;
+        height: 120px;
+    }
+}
+
+@media (max-width: 900px) {
+    .color4 {
+        width: 100%;
+        height: 120px;
+    }
+}
+
+@media (max-width: 900px) {
+    .color5 {
+        width: 100%;
+        height: 120px;
+    }
+}

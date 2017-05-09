@@ -1,0 +1,49 @@
+myMenu = {
+
+    "appertizers": [{
+        "name": "Beer Cheese Spread",
+        "ingredients": ["sharp cheddar cheese", "onion", "garlic", "hot sauce", "ground red pepper", "amber ale beer", "salt and pepper", "thyme sprig"],
+        "description": "This dish honestly does not need a description, try it, and you'll see why."
+        }],
+
+    "cold sandwiches": [{
+        "name": "Banh mi",
+        "ingredients": ["canola oil", "yellow onion", "ground pork", "hoisin sauce", "soy sauce", "toasted sesame oil", "Asian-style hot sauce", "Chinese five-spice powder", "onion powder", "garlic powder", "freshly ground black pepper", "slaw"],
+        "description": "The meaty backbone of the banh mi -- often a trifecta of moist roast pork, velvety pate, and gelatinous head cheese -- is satiating on its own, but it's the delicate balance between spicy jalapeños and soothing cucumbers, cilantro, and shredded carrots that makes the banh Mmi an edible work of art."
+    }],
+
+    "hot sandwiches": [{
+        "name": "Po-boy",
+        "ingredients": ["shrimp", "cornmeal", "flour", "Cajun seasoning", "salt", "eggs", "fried in peanut oil ", "iceberg lettuce", "tomatoes", "French roll", "Creole mustard", "mayo", "horseradish", "pickle juice", "Tabasco", "garlic", "sweet paprika"
+],
+        "description": "Traditionally cut from 24in rolls, a regular po-boy is a full foot long. The second is the filling, which could be any number of things, but really should be either fried shrimp or oysters. An entire plate's worth of them. Dress it up with lettuce, tomato, pickles, mayo, and some sauce, and you have a crunchy, toasty, fatty meal that just might be the best sandwich on the face of the planet."
+    }],
+
+
+    
+
+    "appetizers": ["Beer Cheese Spread", "Cheese Straws", "Afterburners", "Pancetta Crisps With Goat Cheese and Pear", "Beef-and-Asparagus Bundles", "Marinated Mozzarella", "Assemble Your Own Barbecue Stacks", "Caramelized Onion and Goat Cheese Bread", "Cheese Fries"],
+
+    "cold sandwiches": ["Roast beef", "Banh mi", "Italian hero", "Lobster roll", "Porchetta", "B.L.T.", "The submarine, aka the grinder, aka the hoagie", "Chicken salad"],
+
+    "hot sandwiches": ["Cheesesteak", "Po-boy", "Reuben", "The Parms", "Grilled cheese with Goat Cheese", "Pulled pork", "The Gobbler, aka the Thanksgiving leftovers", "Lobster roll", "The Cuban", "Soft-shell crab sandwich", "Patty Melt", "Salmon Burger", "Pastrami or corned beef on rye"],
+
+    "desserts": ["Strawberry Cheesecake", "Red Velvet Cake with Chocolate Covered Vanilla Ice Cream", "Toffee and Truffle Chocolate Brownie", "One Bowl Chocolate Cake III", "Fresh Southern Peach Cobbler", "Giant Chocolate Fudge Chip Cookie"],
+
+    "drinks": ["Vanilla Coke", "Mountin Dew", "Baja Blast", "A&W Creme Soda", "A&W Root Beer", "Sprite", "Coke", "Dr. Pepper", "Water", "Beer", "Wine"]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

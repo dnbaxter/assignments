@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Simple HTML Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="calculator.js"></script>
+</head>
+
+
+<body>
+    <h1>Simple HTML Calculator</h1>
+
+    <form class="calcForm" name="calculator">
+        <input type="text" class="calcDisplay" id="display" />
+        <div class="calcRow">
+            <button type="button" class="btn btn-default" onclick="numInput('7')">7</button>
+            <button type="button" class="btn btn-default" onclick="numInput('8')">8</button>
+            <button type="button" class="btn btn-default" onclick="numInput('9')">9</button>
+            <button type="button" class="btn btn-primary" 
+            onclick="setOperation('add')">+</button>
+        </div>
+
+        <div class="calcRow">
+            <button type="button" class="btn btn-default" onclick="numInput('4')">4</button>
+            <button type="button" class="btn btn-default" onclick="numInput('5')">5</button>
+            <button type="button" class="btn btn-default" onclick="numInput('6')">6</button>
+            <button type="button" class="btn btn-primary" onclick="setOperation('subtract')">-</button>
+        </div>
+
+        <div class="calcRow">
+            <button type="button" class="btn btn-default" onclick="numInput('1')">1</button>
+            <button type="button" class="btn btn-default" onclick="numInput('2')">2</button>
+            <button type="button" class="btn btn-default" onclick="numInput('3')">3</button>
+            <button type="button" class="btn btn-primary" 
+            onclick="setOperation('multiply')">*</button>
+        </div>
+
+        <div class="calcRow">
+            <button type="button" class="btn btn-default" onclick="numInput('1')">0</button>
+            <button type="button" class="btn btn-default" 
+            onclick="insertDecimal('.')">.</button>
+            <button type="button" class="btn btn-default" onclick="clearDisplay()">C</button>
+            <button type="button" class="btn btn-success" 
+            onclick="calculate()">=</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

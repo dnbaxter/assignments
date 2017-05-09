@@ -1,0 +1,47 @@
+body {
+    background-color:  silver;
+    background-image:  url(http://wallpapercave.com/wp/aVMEQR0.jpg);    
+}
+
+h1.title {
+    text-align: center;
+}
+
+h3.article {
+    text-align: center;
+}
+
+strong {
+    background-color: silver;
+    color: crimson;
+}
+
+strong2 {
+    color: darkblue;
+    font-weight: bold;
+}
+
+strong3 {
+    color: brown;
+}
+
+img {
+    float: right;
+    padding: 10px;
+    height: 170px;
+}
+
+.column1 {
+    float: left;
+    width: 33%;
+}
+
+.column2 {
+    float: right;
+    width: 33%;
+}
+
+.column3 {
+    display: inline-block;
+    width: 33%;
+}

@@ -1,0 +1,12 @@
+body {
+    background: url("https://static.pexels.com/photos/4993/night-industry-rails-railroads.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    text-align: center;
+    color: silver;
+    
+    text-shadow: 1px 4px 1px seagreen;
+    font-size: 22px;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Travel Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+
+                <form method="get" name="form" id="form" onsubmit="travelForm()">
+                    <input type="text" placeholder="First Name" id="fName"><br>
+                    <input type="text" placeholder="Last Name" id="lName"><br>
+                    <input type="number" placeholder="Age" id="age"><br>
+                    <input type="radio" name="gender" value="Male"> Male<br>
+                    <input type="radio" name="gender" value="Female"> Female<br>
+
+                    <select name="places">
+                    <option value="North Korea" name="places" id="location">North Korea</option>
+                    <option value="China" name="places" id="location">China</option>
+                    <option value="Afghanistan" name="places" id="location">Afghanistan</option>
+                    <option value="Your Moms" name="places" id="location">Your Moms</option>
+                    </select><br>
+
+                    <label>Dietary restrictions:</label>
+                    <label><input type="checkbox" id="vegatarian" name="vegetarian" value="Vegetarian">Vegetarian</label>
+                    <label><input type="checkbox" id="kosher" name="kosher"  value="Kosher">Kosher</label>
+                    <label><input type="checkbox" id="lactoseFree" name="lactoseFree"  value="Lactose free">Lactose free</label>
+                    <label><input type="checkbox" id="nuts" name="nuts"  value="Nuts">Nuts</label><br>
+                </form>
+                <button type="submit" form="form" value="Submit">Submit</button>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="travel.js"></script>
+</body>
+
+</html>
