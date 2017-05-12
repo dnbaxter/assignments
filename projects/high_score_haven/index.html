@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>High-Score Haven</title>
+</head>
+
+<body>
+
+    <div class="container1">
+        <div class="row">
+            <form method="get" name="form" id="form">
+                <input type="text" name="name" id="userName" placeholder="Name">
+                <input type="text" name="game" id="userGame" placeholder="Game">
+                <input type="date" name="date" id="date">
+                <input type="number" name="highscore" id="highscore" placeholder="Highscore"><br>
+
+                <section>
+                    <!-- Checbox Three -->
+                    <h3>Trash Talk!</h3>
+                    <div class="checkboxThree">
+                        <input type="checkbox" value="1" id="checkboxThreeInput" name="checkBox" class="checkBox" />
+                        <label for="checkboxThreeInput"></label>
+                    </div>
+                </section><br>
+                
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit" name="submit" class="submit" id="submit">
+            </form>
+        </div>
+    </div>
+
+
+    <table class="container" id="table">
+        <thead>
+            <tr>
+                <th>
+                    <h1>Name</h1>
+                </th>
+                <th>
+                    <h1>Game Name</h1>
+                </th>
+                <th>
+                    <h1>Date</h1>
+                </th>
+                <th>
+                    <h1>Highscore</h1>
+                </th>
+                <th>
+                    <h1>Trash Talk</h1>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            
+
+        </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="score.js"></script>
+</body>
+
+</html>

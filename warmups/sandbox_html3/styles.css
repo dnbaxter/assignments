@@ -1,0 +1,28 @@
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    margin: auto;
+    border: 1px solid #333;
+    box-shadow: 10px 10px 5px 0 #999;
+    border-radius: 5%;
+    
+    transition: all .9s ease-in-out
+/*
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+        
+        1. transition-property:
+        2. transition-duration:
+        3. transition-timing-function:
+        4. transition-delay: 
+*/
+
+}
+
+.box:hover {
+    box-shadow: none;
+    border-radius: 90%;
+    background-color: antiquewhite;
+}

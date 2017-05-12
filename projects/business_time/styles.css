@@ -76,6 +76,8 @@ p {
 
 .row {
     margin-top: 30px;
+    color: cornsilk;
+    text-shadow: 2px 2px 1px #0E0E0E;
     margin-bottom: 30px;
 }
 
@@ -377,32 +379,8 @@ ul.primary li:hover>a {
     }
 }
 
-@media (max-width: 1300px) and (min-width: 1220px) {
+@media (max-width: 600px) {
     body {
-        width: 1210px;
-    }
-}
-
-@media (min-width: 1220px) {
-    body {
-        max-width: 1300px;
-    }
-}
-
-@media (min-width: 992px) {
-    body {
-        max-width: 1100px;
-    }
-}
-
-@media (min-width: 768px) {
-    body {
-        max-width: 900px;
-    }
-}
-
-@media (min-width: 600px) {
-    body {
-        height: 500px;
+        background-position: -38px 238px;
     }
 }
