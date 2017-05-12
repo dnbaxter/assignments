@@ -1,0 +1,22 @@
+a:link {
+    color: darkcyan;
+    text-decoration: none;
+    transition: all .5s ease-in-out
+}
+
+/* visited link */
+a:visited {
+    color: coral;
+}
+
+/* mouse over link */
+a:hover {
+    color: silver;
+    transition: all .5s ease-in-out;
+    font-size: 26px;
+}
+
+/* selected link */
+a:active {
+    color: royalblue;
+}

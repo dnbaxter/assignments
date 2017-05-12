@@ -1,0 +1,287 @@
+body {
+    background-image: url("http://cdn.wallpapersafari.com/53/63/V1gNSG.jpg");
+    background-size: 100%;
+    background-position: 00px 220px;
+    color: goldenrod;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'Bradley Hand';
+    src: url('fonts/Bradley Hand.tff');
+}
+
+@font-face {
+    font-family: 'Electra LT Std';
+    src: url('fonts/Electra LT Std.tff');
+}
+
+/*CSS FOR INPUT FIELD INFORMATION*/
+.container1 {
+    text-align: center;
+}
+
+input[type=text], input, select {
+    width: 300px;
+    padding: 10px 10px;
+    margin: 2px 1px 5px 5px;
+    display: inline-block;
+    border: 2px solid #1F2739;
+    border-radius: 4px;
+    text-align: center;
+    
+    color: black;
+    background-color:rgba(255,215,0,0.6);
+    border: 5px solid black;
+    border-radius: 50px;
+}
+#message {
+    width: 80.2%
+}
+
+input[type=reset], input[type=submit] {
+    width: 330px;
+    padding: 10px 10px;
+    margin: 2px 1px 5px 5px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    
+    background-color:rgba(255,215,0,0.5);
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.checkBox {
+    display: none;
+}
+section {
+    display: inline-block;
+}
+h3 {
+    color: crimson;
+    text-shadow: 3px 3px 1px black;
+}
+/**
+ * Checkbox Three
+ */
+.checkboxThree {
+	width: 80px;
+	height: 40px;
+	background: #333;
+	margin: 20px 60px;
+    
+	border-radius: 50px;
+	position: relative;
+}
+/**
+ * Create the text for the On position
+ */
+.checkboxThree:before {
+	content: 'On';
+	position: absolute;
+	top: 12px;
+	left: 13px;
+	height: 2px;
+	color: #26ca28;
+	font-size: 16px;
+}
+/**
+ * Create the label for the off position
+ */
+.checkboxThree:after {
+	content: 'Off';
+	position: absolute;
+	top: 12px;
+	left: 44px;
+	height: 2px;
+	color: #111;
+	font-size: 16px;
+}
+/**
+ * Create the pill to click
+ */
+.checkboxThree label {
+	display: block;
+	width: 25px;
+	height: 20px;
+	border-radius: 50px;
+
+	transition: all .5s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 9px;
+	z-index: 1;
+	left: 12px;
+	background: #ddd;
+}
+
+/**
+ * Create the checkbox event for the label
+ */
+.checkboxThree input[type=checkbox]:checked + label {
+	left: 40px;
+	background: #26ca28;
+}
+
+
+
+
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.42em;
+    color: #A7A1AE;
+    background-color: #484848;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1em;
+    text-align: center;
+    color: #A82323;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    line-height: 1em;
+    padding-bottom: 2em;
+    color: #A82323;
+}
+
+h2 a {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #A82323;
+    text-decoration: none;
+}
+
+.blue {
+    color: #185875;
+}
+
+.yellow {
+    color: #FFF842;
+}
+
+.container th h1 {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    color: #185875;
+}
+
+.container td {
+    font-weight: normal;
+    font-size: 1em;
+    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+    -moz-box-shadow: 0 2px 2px -2px #0E1119;
+    box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.container {
+    text-align: left;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 8em 0;
+}
+
+.container td,
+.container th {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+
+/* Background-color of the odd rows */
+
+.container tr:nth-child(odd) {
+    background-color: #5C5C5C;
+}
+
+
+/* Background-color of the even rows */
+
+.container tr:nth-child(even) {
+    background-color: #2C3446;
+}
+
+.container th {
+    background-color: #ADADAD;
+}
+
+.container td:first-child {
+    color: crimson;
+    font-size: 18px;
+    text-shadow: 3px 3px 1px black;
+}
+
+.container tr:hover {
+    background-color: #464A52;
+    -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+    -moz-box-shadow: 0 6px 6px -6px #0E1119;
+    box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+
+@media (max-width: 800px) {
+    .container td:nth-child(4),
+    .container th:nth-child(4) {
+
+    }
+}
+
+
+/*MEDIA RESIZING*/
+
+@media (min-width: 1220px) .container {
+    padding: 0;
+}
+
+@media (max-width: 1300px) and (min-width: 1220px) .container {
+    width: 1210px;
+}
+
+@media (min-width: 1220px) .container {
+    max-width: 1300px;
+}
+
+@media (min-width: 992px) .container {
+    max-width: 1100px;
+}
+
+@media (min-width: 768px) .container {
+    max-width: 900px;
+}
+
+@media (min-width: 1220px) {
+    body {
+        padding: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        background-position: 0px 238px;
+    }
+}
+@media (max-width: 700px) {
+    body {
+        background-position: 0px 368px;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        background-position: 0px 418px;
+    }
+}
