@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ugly Things</title>
+</head>
+
+
+
+
+<body ng-controller="MainController">
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-xs-offset-1 col-xs-10">
+                <div class="well">
+                    <form name="myForm" ng-submit="submit(ugly)" class="form">
+
+                        <!--                        Image Title -->
+                        <input type="text" placeholder="Image Title" ng-model="ugly.title" ng-minlength=3 required>
+                        <!--                        Image URL -->
+                        <input type="text" placeholder="Img URL" ng-model="ugly.imgUrl" required>
+                        <!--                        Description -->
+                        <input type="text" placeholder="Description" ng-model="ugly.description" required>
+
+                        <br>
+                        <br>
+                        <input type="submit" ng-disabled="myForm.$invalid" id="submit" value="Submit" class="btn btn-success" />
+
+                    </form>
+                </div>
+                
+                <div class="uglyStuff" ng-repeat="picture in uglyPics">
+                    <h2> {{picture.title}} </h2>
+                    <p> {{picture.description}} </p>
+                    <img ng-src=" {{picture.imgUrl}} " />
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+body {
+    background-color:#85d0e7; /*from base of #5bc0de*/
+}
+
+.main-title, h1 {
+    position: relative;
+    margin:0 0 20px;
+    background-color: #5bc0de;
+    padding: 20px 50px 20px 20px;
+
+}
+
+button.btn.btn-default {
+    position:absolute;
+    left:-15px;
+    top:-10px;
+    border-radius: 0;
+    border: none;
+    background-color: #de5b7f;
+    font-size: 1.3em;
+    padding: 8px 20px;
+    border: none;
+    border-right: 1px solid rgba(144, 62, 86,.7);
+    color: white;
+    text-shadow: 1px 1px 0px #898989;
+}
+
+
+
+form .input-group .input-group-addon  {
+    background-color: #de5b7f;
+    color: white;
+    text-shadow: 1px 1px 0px #898989;
+    border-radius: 0;
+    border: none;
+}
+
+
+
+input.checkbox {
+    position:absolute;
+    top:5px;
+    left:15px;
+    visibility: hidden;
+}
+
+input.button {
+    position:absolute;
+    top:5px;
+    left:15px;
+    visibility: hidden;
+}
+
+.fa-edit {
+    color: #f0ad4e;
+}
+
+.fa-trash-o {
+    color: #d9534f;
+}

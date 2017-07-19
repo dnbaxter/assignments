@@ -1,0 +1,15 @@
+* {
+    /*border: 1px solid darkred;*/
+}
+.jumbotron {
+    text-align: center;
+}
+.todo-item {
+    max-width: 550px;
+    font-size: 25px;
+    text-align: left;
+    margin: auto;
+}
+.todo-item button {
+    float: right;
+}

@@ -1,0 +1,159 @@
+body {
+    font-family: Oswald;
+    background-color: darkslategray;
+    color: silver;
+}
+
+
+mike-the-mink:hover {
+    opacity: 0.0;
+    width: 10px;
+}
+
+
+h1{
+    text-align: center;
+}
+p {
+    font-size: 16px;
+}
+h1, h2 {
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.facts li {
+    text-align: center;
+    float: none;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    font-size: 16px;
+}
+
+.image {
+    box-shadow: 20px 20px 4px #000000;
+}
+
+.georgia_pictures img {
+    width: auto;
+    height: 400px;
+}
+
+#column {
+    left: 40px;
+}
+.main_container {
+    width: 10%;
+    height: auto;
+    display: inline-block;
+}
+.main_container .second_container {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.containers {
+    text-align: center;
+    left: 10xp;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 250px;
+    
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+    
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 5px 15px 4px rgba(0, 0, 0, .5);
+    border: 3px solid silver;
+}
+
+#image1:hover {
+    z-index: 10;
+}
+
+
+
+
+
+
+/*SHADOW AND BORDER EFFECT FOR IMAGE*/
+#boxshadow {
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 5px;
+    background: silver;
+}
+
+/* Make the image fit the box */
+#boxshadow img, .containers img {
+    width: 100%;
+    border: 1px solid #8a4419;
+    border-style: inset;
+}
+
+#boxshadow::after {
+    content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);                
+    width: 70%; 
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0;
+}
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: ;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+li a:active {
+    color: white;
+    text-decoration: none;
+}
+li a:visited {
+    text-decoration: none;
+/*    color: silver;*/
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #36606E;
+}

@@ -1,0 +1,16 @@
+* {
+    margin: auto;
+    text-align: center;
+    font-family: "Bellefair";
+}
+body {
+    background-color: silver;
+}
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+.btn {
+    font-size: 20px;
+    margin: 2px;
+}

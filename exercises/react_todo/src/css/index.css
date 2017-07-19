@@ -1,0 +1,40 @@
+* {
+    background-color: silver;
+    /*border: 1px solid red;*/
+}
+.main-page {
+    /*background-image: url("http://images6.fanpop.com/image/photos/38300000/Amy-s-To-Do-List-gone-girl-38365020-1916-796.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    height: 800px;
+}
+.todo-list {
+    text-align: center;
+    padding-top: 20px;
+}
+.todo-titles {
+    padding-top: 20px;
+}
+
+.display-todo {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header-top {
+    margin-top: -20px;
+    height: 200px;
+    /*background-image: url("http://images6.fanpop.com/image/photos/38300000/Amy-s-To-Do-List-gone-girl-38365020-1916-796.jpg");*/
+    background-image: url("http://media.istockphoto.com/photos/to-do-list-business-chalkboard-background-picture-id689294908?k=6&m=689294908&s=612x612&w=0&h=AmBcage7nE8noHWq-bDBn1WWUzEeR84LviEIgaAOgVk=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+.header-text {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 62px 0px;
+    font-size: 5em;
+    text-shadow: 1px 1px 1px white;
+}

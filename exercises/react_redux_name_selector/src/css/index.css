@@ -1,0 +1,30 @@
+* {
+    text-align: center;
+}
+body {
+    background-color: silver;
+}
+.jumbotron {
+    text-align: center;
+    background-color: seagreen;
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px black;
+}
+input {
+    border-radius: 5px;
+    width: 30%;
+    height: 35px;
+    margin: 5px;
+}
+.btn {
+    margin-top: 20px;
+    width: 30%;
+}
+.name-title {
+    margin: 50px 0px;
+    text-shadow: 1px 1px 3px seagreen;
+    text-decoration: underline;
+}
+.random-name {
+    font-family: "Orbitron";
+}

@@ -1,0 +1,32 @@
+body {
+    background-color: darkslategray;
+    font-family: Oswald;
+}
+.bg-info {
+    background-color: darkslategray;
+    padding-bottom: 10px;
+}
+.form-inline {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.image-display {
+    text-align: center;
+    background-color: rosybrown;
+}
+.cartoonInfo {
+    background-color: rosybrown;
+    padding-top: 20px;
+}
+.panel {
+    background-color: silver;
+    border: 2px solid black;
+    font-size: 16px;
+}
+.panel img {
+    opacity: 0.8;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Angular Services, add your favorite Pokemon</title>
+</head>
+
+
+
+
+<body ng-controller="addCtrl">
+
+
+
+    <div class="container-fluid main-content">
+        <div class="row">
+            <form class="col-xs-offset-1 col-xs-8">
+                <div class="pokemonImage">
+                    <img src="https://s-media-cache-ak0.pinimg.com/originals/fd/18/c6/fd18c6d26d4d9d26a0bd9d1a2fb2bd04.png" />
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label" style="text-align:center;">Add a favorite Pokemon</label>
+                    <input class="form-control input-md" type="text" name="pokeInput" placeholder="Favorite Pokemon name" ng-model="newPokemon">
+
+                    <br>
+
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <button class="btn btn-success btn-block btn-md" role="submit" ng-click="addPokemon(newPokemon)"><span class="glyphicon glyphicon-plus-sign"></span> Add Pokemon</button>
+                        </div>
+                        <div class="input-group-btn">
+                            <button class="btn btn-danger btn-block btn-md" role="button" ng-click="deletePokemon(newPokemon)"><span class="glyphicon glyphicon-trash"></span> Delete Pokemon </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+
+            <aside id="sideBlog" class="col-sm-2">
+                <div class="row">
+                    <div class="col-md-11 col-xs-11 col-xs-offset-1">
+                        <div class="pokemonlist">
+                            <ul>
+                                <li ng-repeat="name in pokemonList track by $index" ng-click="add($index)">
+                                    {{name}}
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!--  Angular CDN's  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <!--  jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!--  App Module  -->
+    <script src="app.js"></script>
+
+    <!--  Sources/Services  -->
+    <script src="components/addPokemon.js"></script>
+    <script src="components/showPokemon.js"></script>
+    <script src="components/pokeService.js"></script>
+</body>
+
+</html>

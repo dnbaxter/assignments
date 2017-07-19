@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Yoda Speak</title>
+</head>
+
+
+
+
+<body ng-controller="MainController">
+
+    <div class="navbar navbar-default navbar-fixed-top">
+        <h1>{{title}}</h1>
+
+    </div>
+    <div class="container-fluid">
+        <div class="row image">
+            <div class="col-xs-offset-3 col-xs-6">
+                <form name="inputForm" ng-submit=translate(textInput)>
+                    <div class="form-group">
+                        <label class="h2">Yoda Speak</label>
+                        <input class="form-control" type="text" name="textInput" ng-model="textInput" style="margin-top:30px;">
+                    </div>
+                    <button class="btn btn-default">Translate</button>
+                </form>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-6 col-xs-offset-1">
+                    <h2 class="translation" ng-if="yodaSpeak">{{yodaSpeak}}</h2>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <!-- Local JS -->
+    <script src="app.js"></script>
+    <script src="httpservice.js"></script>
+</body>
+
+</html>

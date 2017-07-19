@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='MyApp'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Beginnings</title>
+</head>
+
+
+<body ng-controller='MainController'>
+
+    <input type="text" ng-model='input'>
+    <h2> {{input}} </h2>
+
+    <input type="text" ng-model='input'>
+    <button ng-click='getInput(input)'></button>
+    <h2> {{newInput}} </h2>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

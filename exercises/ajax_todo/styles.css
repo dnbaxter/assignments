@@ -1,0 +1,260 @@
+#head {
+    background: silver;
+    text-align: center;
+    margin-bottom: -80px;
+}
+
+img {
+    height: 85px;
+    width: 85px;
+    padding-top: 3px;
+}
+
+
+
+
+
+
+td {
+    position: relative;
+    padding: 5px 10px;
+}
+
+tr.strikeout td:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid #111;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Bradley Hand';
+    src: url('fonts/Bradley Hand.tff');
+}
+
+@font-face {
+    font-family: 'Electra LT Std';
+    src: url('fonts/Electra LT Std.tff');
+}
+
+
+/*CSS FOR INPUT FIELD INFORMATION*/
+
+.container1 {
+    text-align: center;
+}
+
+input[type=text],
+input[type=number],
+select {
+    width: 390px;
+    padding: 10px 10px;
+    margin: 5px 5px 5px 5px;
+    display: inline-block;
+    border: 2px solid #1F2739;
+    text-align: center;
+    color: white;
+    background-color: rgba(150, 150, 150, 0.6);
+    border: 3px solid black;
+    border-radius: 0px;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 5px;
+    border: 3px solid #555;
+}
+
+input[type='checkbox']:checked {
+    background: #1F2739;
+}
+
+#checked {
+    
+}
+
+input[type=reset],
+input[type=submit] {
+    width: 330px;
+    padding: 10px 10px;
+    margin: 2px 1px 5px 5px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    background-color: rgba(150, 150, 150, 0.6);
+    border: 3px solid black;
+    border-radius: 90px;
+}
+
+section {
+    display: inline-block;
+}
+
+h3 {
+    color: crimson;
+    text-shadow: 3px 3px 1px black;
+}
+
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.42em;
+    color: #A7A1AE;
+    background-color: #484848;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1em;
+    text-align: center;
+    color: #A82323;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    line-height: 1em;
+    padding-bottom: 2em;
+    color: #A82323;
+}
+
+h2 a {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #A82323;
+    text-decoration: none;
+}
+
+.blue {
+    color: #185875;
+}
+
+.yellow {
+    color: #FFF842;
+}
+
+.container th h1 {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    color: #185875;
+}
+
+.container td {
+    font-weight: normal;
+    font-size: 1em;
+    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+    -moz-box-shadow: 0 2px 2px -2px #0E1119;
+    box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.container {
+    text-align: left;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 8em 0;
+}
+
+.container td,
+.container th {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 1%;
+    border: 2px solid black;
+}
+
+
+/* Background-color of the odd rows */
+
+.container tr:nth-child(odd) {
+    background-color: #5C5C5C;
+}
+
+
+/* Background-color of the even rows */
+
+.container tr:nth-child(even) {
+    background-color: dimgrey;
+}
+
+.container th {
+    background-color: #ADADAD;
+}
+
+.container td:first-child {
+    color: violet;
+    font-size: 18px;
+    text-shadow: 3px 3px 1px black;
+}
+
+.container tr:hover {
+    background-color: silver;
+    -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+    -moz-box-shadow: 0 6px 6px -6px #0E1119;
+    box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+@media (max-width: 800px) {
+    .container td:nth-child(4),
+    .container th:nth-child(4) {}
+}
+
+
+/*MEDIA RESIZING*/
+
+@media (min-width: 1220px) .container {
+    padding: 0;
+}
+
+@media (max-width: 1300px) and (min-width: 1220px) .container {
+    width: 1210px;
+}
+
+@media (min-width: 1220px) .container {
+    max-width: 1300px;
+}
+
+@media (min-width: 992px) .container {
+    max-width: 1100px;
+}
+
+@media (min-width: 768px) .container {
+    max-width: 900px;
+}
+
+@media (min-width: 1220px) {
+    body {
+        padding: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        background-position: 0px 238px;
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        background-position: 0px 368px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-position: 0px 418px;
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Angular ng-model</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+
+
+
+
+<body ng-controller="MainController">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+
+                <!--
+                <input type="text" ng-model='input'>
+                <h2> {{input}} </h2>
+-->
+                <div class="well">
+                    <input type="text" ng-model='input1'>
+                    <h2> {{input1}} </h2>
+                </div>
+                <div class="well">
+                    <input type="text" ng-model="input2">
+                    <h2> {{input2}} </h2>
+                </div>
+                <div class="well">
+                    <input type="text" ng-model="input3">
+                    <h2> {{input3}} </h2>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

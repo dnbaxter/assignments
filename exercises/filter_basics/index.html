@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="angularFilters">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Angular Filters</title>
+</head>
+
+
+
+
+
+
+<body ng-controller="mainCtrl">
+
+    <h1> {{ test | uppercase }} </h1>
+    <h1> {{ test2 | number:4 }} </h1>
+    <h1> {{ test2 | currency }} </h1>
+    <h1> {{ date | date }} </h1>
+<!--    <h1> {{ date | date }} </h1>-->
+    
+    <h1> {{ person | json }} </h1>
+    
+    <h1 ng-repeat="word in list | limitTo:3"> {{ word }} </h1>
+
+
+
+    <!--  Angular CDN's  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+
+    <!--  jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!--  App Module  -->
+    <script src="app.js"></script>
+</body>
+
+</html>

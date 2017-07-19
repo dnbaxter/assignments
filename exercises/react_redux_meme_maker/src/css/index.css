@@ -1,0 +1,66 @@
+* {
+    /*border: 1px solid crimson;*/
+    margin: auto;
+}
+.jumbotron {
+    text-align: center;
+    margin-top: -50px;
+    padding-bottom: 10px;
+    background-color: rebeccapurple;
+    color: silver;
+    text-shadow: 1px 1px 1px white;
+}
+.jumbotron img {
+    width: auto;
+    height: 200px;
+}
+.form {
+    margin-top: 20px;
+}
+input {
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.btn {
+    margin-top: 7px;
+    width: 100%;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+}
+.btn:hover {
+    color: whitesmoke;
+    background-color: #6c4b91;
+}
+
+.btn:focus {
+    color: whitesmoke;
+    background-color: rebeccapurple;
+    outline: none;
+}
+.meme-image {
+    box-shadow: 3px 3px 10px #4c4c4c;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 550px;
+    width: 100%;
+    /*background-image: url("https://imgflip.com/s/meme/Success-Kid.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+    position: relative;
+}
+.meme-top-text h1 {
+    font-size: 60px;
+}
+.meme-bottom-text h1 {
+    font-size: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

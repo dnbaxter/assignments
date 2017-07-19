@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Document</title>
+</head>
+
+
+
+
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul>
+                    <li><a class="active" href="#!/home">Home</a></li>
+                    <li><a href="#!/about">About</a></li>
+                    <li><a href="#!/whyilove">Why I love it!</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <ng-view></ng-view>
+    <!--  Libraries  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+
+    <!--  App  -->
+    <script src="app.js"></script>
+
+    <!--  App Component  -->
+    <script src="components/about/about.js"></script>
+    <script src="components/home/home.js"></script>
+    <script src="components/whyilove/whyilove.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+<div class="row">
+	<div class="col-sm-6" ng-repeat="item in wishlist">
+		<div class="panel panel-primary" ng-if="item.name && item.price">
+			<div class="panel-heading ">
+				<h3 class="panel-title">{{item.name}}</h3>
+			</div>
+			<div class="panel-text">
+				<p class="text-center h4">{{item.price | currency}}</p>
+				<img src="{{item.imgUrl}}" height="200" class="center-block">
+			</div>
+		</div>
+	</div>
+</div>

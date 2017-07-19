@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <title>Ajax ToDo</title>
+</head>
+
+<body>
+    <div class="container" id="head">
+        <div class="row">
+            <form method="get" name="todo_list" id="todo_list">
+                <input type="text" name="title" id="title" placeholder="ToDo Item">
+                <input type="text" name="description" id="description" placeholder="Description">
+                <input type="number" name="price" min="0.01" step="0.01" id="price" placeholder="Price">
+                <input type="text" name="image" id="image" placeholder="Image URL"><br>
+
+
+                <div class="checkboxThree">
+                    <input type="checkbox" value="1" id="checkboxThreeInput" name="checkBox" class="checkBox" /> Completed?
+                    <label for="checkboxThreeInput"></label>
+                </div>
+
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit" name="submit" class="submit" id="submit">
+            </form><br>
+
+
+<!--
+            <a href="#" class="btn btn-info btn-xs">
+                <span class="glyphicon glyphicon-refresh" id="refresh"> Refresh</span>
+            </a>
+-->
+
+        </div>
+    </div>
+
+
+
+    <table class="container" id="table">
+        <thead>
+            <tr class="strikeout">
+                <th>
+                    <h1>Title</h1>
+                </th>
+                <th>
+                    <h1>Description</h1>
+                </th>
+                <th>
+                    <h1>Price</h1>
+                </th>
+                <th>
+                    <h1>Image URL</h1>
+                </th>
+                <th>
+                    <h1>Completed</h1>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+        </tbody>
+    </table>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="todo.js"></script>
+</body>
+
+</html>

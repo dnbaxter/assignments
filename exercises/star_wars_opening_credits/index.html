@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="starWarsApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Star Wars Opening Credits</title>
+</head>
+
+
+
+
+<body ng-controller="mainCtrl">
+
+    <audio id="audio" controls autoplay style="display:none;">
+    <source src="https://archive.org/download/StarWarsThemeSongByJohnWilliams/Star%20Wars%20Theme%20Song%20By%20John%20Williams.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="titles">
+        <div id="titlecontent">
+            <p style="text-align:center;"> Episode IV </p>
+            <p style="text-align:center;"> A NEW HOPE </p>
+            <br>
+            <p>{{openingCredits}}</p>
+
+        </div>
+    </div>
+
+
+    <!--  Angular CDN's  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+
+    <!--  jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!--  App Module  -->
+    <script src="app.js"></script>
+
+    <!--  Sources/Services  -->
+    <script src="starWarsService.js"></script>
+</body>
+
+</html>

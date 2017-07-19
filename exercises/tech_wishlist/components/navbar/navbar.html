@@ -1,0 +1,16 @@
+<nav class="nav navbar">
+    <ul class="nav nav-justified">
+        <li>
+            <a href="#!/home">Home</a>
+        </li>
+        <li ng-repeat="item in navLinks">
+            <a href="#!/{{item.url}}"> {{item.name}} </a>
+        </li>
+        <li>
+            <a href="#!/computerphonetech"> Computer & Phone Tech </a>
+        </li>
+        <li>
+            <a href="#!/othertech"> Other Tech </a>
+        </li>
+    </ul>
+</nav>

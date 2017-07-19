@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="cartoonApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>More Angular Services!! Cartoons!</title>
+</head>
+
+
+
+
+
+<body ng-controller="mainCtrl">
+
+    <header class="container bg-info">
+        <div class="row">
+            <form class="form">
+                <div class="form-inline col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-3">
+                    <input type="text" class="form-control" placeholder="Title" ng-model="title">
+                    <input type="text" class="form-control" placeholder="Img URL" ng-model="imgUrl">
+                    <input type="text" class="form-control" placeholder="Description" ng-model="description">
+                </div>
+                <div class="col-xs-4 col-xs-offset-4">
+                    <div class="col-xs-4 col-xs-offset-4">
+                        <button role="submit" class="btn btn-primary btn-block" ng-click="addCartoon()">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>
+
+
+    <section class="container cartoonInfo">
+        <div class="row">
+            <div class="col-xs-12 image-display" ng-repeat="image in images">
+                <div class="panel panel-default">
+                    <h2 class="text-center">{{image.title}} </h2>
+                    <p class="text-center img-description">{{image.description}} </p>
+                    <img src="{{image.imgUrl}}" class="image-responsive img-thumbnail">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--  Angular CDN's  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+
+    <!--  jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!--  App Module  -->
+    <script src="app.js"></script>
+
+    <!--  Sources/Services  -->
+    <script src="components/cartoonService.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Mighty Clicker</title>
+</head>
+
+
+
+
+<body ng-controller="mainCtrl">
+   <br>
+   <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button class="btn btn-primary btn-block btn-md" role="button" ng-click="bluePoints()"><span class="glyphicon glyphicon-user"></span> Blue Team</button>
+                    </div>
+                    <div class="input-group-btn">
+                        <button class="btn btn-danger btn-block btn-md" role="button" ng-click="redPoints()"><span class="glyphicon glyphicon-user"></span> Red Team</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scores">
+            <div class="row">
+            <div class="col-xs-offset-1 col-xs-4">
+               <div class="score1">
+                   <h1> Blue: {{bPoints}} </h1>
+               </div>
+            </div>
+            <div class="col-xs-offset-2 col-xs-4">
+               <div class="score2">
+                   <h1> Red: {{rPoints}} </h1>
+               </div>
+            </div>
+        </div>
+        </div>
+        
+         
+        
+        
+        
+        
+    </div>
+
+
+
+
+
+
+    <!--  Angular CDN's  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <!--  jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!--  App Module  -->
+    <script src="app.js"></script>
+
+    <!--  Sources/Services  -->
+    <script src="components/blueService.js"></script>
+    <script src="components/redService.js"></script>
+</body>
+
+</html>

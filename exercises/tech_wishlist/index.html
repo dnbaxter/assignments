@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="wishlistApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!-- Bootswatch -->
+	<link ng-href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/slate/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+   
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>My Tech Wishlist</title>
+</head>
+
+
+
+<body>
+
+    <my-nav></my-nav>
+    <hr>
+    <div class="container-fluid main-content">
+        <ng-view></ng-view>
+    </div>
+    <hr>
+
+
+
+<!--
+<div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <form>
+                    <div class="form-group">
+                        <label>theme</label>
+                        <select class="form-control" ng-model="css" ng-options="bootstrap.url as bootstrap.name for bootstrap in bootstraps"> </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+-->
+    
+    
+    
+    
+    
+    
+    
+    <!--  Angular CDN's  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+
+    <!--  jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!--  App Module  -->
+    <script src="app.js"></script>
+
+    <!--  Sources/Services  -->
+    <script src="components/home/home.js"></script>
+    <script src="components/navbar/navbar.js"></script>
+    <script src="components/listhandler/listhandler.js"></script>
+    <script src="components/cptech/cptech.js"></script>
+    <script src="components/othertech/othertech.js"></script>
+</body>
+
+</html>

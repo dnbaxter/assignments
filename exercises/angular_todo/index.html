@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Angular Todo</title>
+</head>
+
+
+
+<body ng-controller="mainCtrl">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-offset-5 col-xs-7">
+                <input type="button" class="addTodo" value="+ Add New Todo" ng-click="toggle()" ng-model="myVar">
+            </div>
+        </div>
+    </div>
+
+
+    <div ng-show="myVar">
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="well">
+                        <form name="myForm" ng-submit="postTodo(newTodo)">
+
+                            <!--                        Todo Item -->
+                            <input type="text" placeholder="Todo Item" ng-model="newTodo.title" ng-minlength=3 required>
+                            <!--                        Todo Description -->
+                            <input type="text" placeholder="Description" ng-model="newTodo.description" ng-minlength=3 required>
+
+                            <!--                        Todo Price -->
+                            <input type="text" placeholder="Price" ng-model="newTodo.price" ng-minlength=3 required>
+                            <!--                        Todo Image URL -->
+                            <input type="text" placeholder="Image URL" ng-model="newTodo.imgUrl" ng-minlength=3 required>
+
+                            <div>
+                                <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" ng-model="newTodo.completed" type="checkbox" unchecked>
+                                <label for="checkbox-1" class="checkbox-custom-label">Completed? </label>
+                            </div>
+
+                            <br>
+                            <br>
+                            <input type="submit" ng-disabled="myForm.$invalid" id="submit" value="Submit" class="btn btn-success" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <section class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="list-group-item" ng-repeat="todo in todoItem">
+                    <span class="h3"> {{todo.title}} </span>
+
+                    <label class="fa fa-check-square-o">
+				    <input class="checkbox" type="checkbox" ng-model="todo.completed"></label>
+
+                    <label class="fa fa-edit">
+				    <input class="button" type="button" ng-click="editTodo($index)"></label>
+
+                    <label class="fa fa-trash-o">
+				    <input class="button" type="button" ng-click="deleteTodo(todo, $index)"></label>
+
+                   
+                    <div class="list-group-text">
+                        <div class="row">
+                            <div class="col-xs-1 short-description">
+                                <i class="fa fa-file-text fa-1x"></i>
+                            </div>
+                            <div class="col-xs-11">
+                                {{todo.description}}
+                            </div>
+
+                            <div class="col-xs-1 price">
+                                <i class="fa fa-usd fa-1x"></i>
+                            </div>
+                            <div class="col-xs-11">
+                                {{todo.price}}
+                            </div>
+
+                            <div class="col-xs-12" ng-if="todo.imgUrl">
+                                <div class="thumbnail">
+                                <img ng-src="{{todo.imgUrl}}"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--ANGULAR JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <!--LOCAL JS-->
+    <script src="app.js"></script>
+</body>
+
+</html>

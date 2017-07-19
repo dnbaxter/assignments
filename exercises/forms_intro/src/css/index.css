@@ -1,0 +1,23 @@
+* {
+    background-color: silver;
+    font-family: "Bellefair";
+    text-align: center;
+}
+.form-control {
+    background-color: #adb6c6;
+    color: black;
+    font-size: 1.3em;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #adb6c6 inset !important;
+}
+
+.name-list {
+    border: 2px solid black;
+    box-shadow: 3px 3px 8px slategrey;
+}
+.stuff {
+    /*text-decoration: underline;*/
+    text-shadow: 1px 1px 1px slategrey;
+    font-size: 1.5em;
+}

@@ -1,0 +1,48 @@
+body {
+    
+    background-image: radial-gradient(silver,black)
+}
+
+.pictures {
+    display: inline-block;
+    width: 310px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.container-fluid {
+    margin-left: 0px;
+}
+.targetPicture {
+    display: inline-block;
+	height: 250px;
+	width: 70%;
+	border: none;
+	background-position:center;
+	background-size:auto 100%;
+	background-repeat: no-repeat;
+	background-color:#555;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.text-center {
+    color: white;
+    margin-top: 205px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Oswald;
+    background: rgba(40, 130, 255, 0.6)
+}
+.navbar {
+    border: 2px solid black;
+}
+.navbar img {
+    padding-right: 30px;
+    height: 80px;
+}
+.navbar h3 {
+    font-family: Oswald;
+    color: crimson;
+    opacity: 0.8;
+    letter-spacing: 2px;
+}
