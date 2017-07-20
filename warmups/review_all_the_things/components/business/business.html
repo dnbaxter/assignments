@@ -1,0 +1,14 @@
+<!--
+<div ng-repeat="contact in contacts | contactFilter: 'business'">
+    <h3> Name: {{contact.firstName}} {{contact.lastName}} </h3>
+    <p> Email: {{contact.email}} </p>
+    <p> Type: {{contact.type}} </p>
+    <hr>
+</div>-->
+
+
+
+
+<div ng-repeat="associate in associates | contactFilter: 'business'">
+    <contact-card contact="associate"></contact-card>
+</div>

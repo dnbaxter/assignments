@@ -1,0 +1,700 @@
+body {
+    font-family: "avenir", sans-serif;
+}
+@font-face {
+    font-family: 'Bebas Neue Light';
+    src: url('fonts/BebasNeueLight.ttf');
+}
+@font-face {
+    font-family: 'Bebas Neue Regular';
+    src: url('fonts/BebasNeueRegular.ttf');
+}
+
+/*HEADER STYLING*/
+#headerLogo {
+    padding-top: 12px;
+    height: 51px;
+}
+#header {
+    padding-bottom: 40px;
+}
+
+
+.wrap {
+    margin-left: 35px;
+    width: 100%;
+}
+
+#irrelevantContainer {
+    width: 160%;
+    margin-top: -8px;
+    outline: none;
+}
+.form-control {
+    height: 35px;
+    border-radius: 0px;
+    font-style: italic;
+    font-size: 14px;
+}
+.bar {
+    margin-top: 8px;
+}
+.form-control:focus {
+    border-color: #ccc;
+}
+.glyphicon {
+    margin-top: -10px;
+    color: #919191;
+}
+
+#email {
+    background: #fee6db;
+    height: 80px;
+    margin-top: -40px;
+}
+
+#secondInput {
+    margin-top: 5px;
+    box-shadow: 1px 1px 1px #fbcbb6;
+    font-style: normal;
+    height: 30px;
+}
+
+
+/*BLOG STUFF*/
+#mainBlog {
+    margin-top: 70px;
+}
+h2 {
+    font-family: Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    width: 100%; 
+    color: #999999;
+    margin: 0px 0px 1px 0px;
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #DDD;
+    line-height: 0.0em;
+/*    margin-left: 20px;*/
+}
+h2 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+h1 {
+    font-size: 36px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    margin: 24px 0px 19px 0px;
+    text-align: center;
+    font-family: "Bebas Neue Regular", sans-serif;
+    color: #000;
+}
+a:hover {
+    text-decoration: none;
+    color: #fbcbb6;
+}
+.categories {
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: #DDD;
+}
+
+.blogImg1 {
+    text-align: center;
+    margin-left: 0px;
+    width: 100%;
+    height: 925px;
+}
+
+.post {
+   padding-top: 15px; 
+}
+
+.more-link {
+    margin: 32px auto 0;
+    width: 126px;
+    display: block;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    color: #ccc;
+    font-family: "Oswald", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: normal;
+    transition: background-color .2s;
+    background-color: transparent;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+.more-link:hover {
+    background: #ccc;
+    color: #fff;
+}
+
+.fa {
+    font-size: 30px;
+    color: #f3c3ac;
+    letter-spacing: .7em;
+}
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.comments {
+    right: 0;
+    position: absolute;
+    margin-right: 15px;
+}
+
+.relatedBox h3 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    padding-top: 10px;
+}
+
+.relatedBox h3 span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.relatedImages {
+    height: 120px;
+    width: 21%;
+    margin-right: 12px;
+    margin-left: 9px;
+}
+
+#sideBlog {
+    margin-top: 70px;
+}
+
+.socialMedia2, .subscribe, .wishlist {
+    color: #000;
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ccc;
+    line-height: 0px;
+    margin: 10px 0px 0px 0px;
+}
+.socialMedia2 span, .subscribe span, .wishlist span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+li.socialMedia3 {
+    margin-top: 30px;
+    margin-left: -20px;
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#socialSM {
+    margin-left: 10px;
+    font-size: 15px;
+    vertical-align: middle;
+    color: black;
+}
+.subscribe {
+    margin-top: 60px;
+}
+.subscribe2 {
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: "avenir", sans-serif;
+    text-transform: none;
+    padding-bottom: 0px;
+}
+#thirdInput {
+    width: 100%;
+    font-style: normal;
+    margin-left: auto;
+    font-family: "avenir", sans-serif;
+    border: none;
+    box-shadow: 0px 0px 0px white;
+}
+#envelope {
+    right: 20px;
+    font-size: 14px;
+}
+.wishlist {
+    margin-top: 60px;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+    background: white;
+    height: 20px;
+    margin-top: 150px;
+    width: 20px;
+}
+
+.glyphicon.glyphicon-chevron-right:hover,
+.glyphicon.glyphicon-chevron-left:hover{
+    background: black;
+    color: #ccc;
+}
+.carousel-inner {
+    margin-top: 30px;
+    left: 10px;
+    height: 370px;
+    width: 94%;
+    margin-bottom: 40px;
+}
+.glyphicon.glyphicon-chevron-right,
+.glyphicon.glyphicon-chevron-left {
+    font-size: 12px;
+    padding-top: 8px;
+    color: black;
+    background: transparent;
+    right: 10px;
+}
+
+
+
+
+/*SIDEBLOG IMAGE SIZING*/
+#nordstrom {
+    margin-top: 20px;
+    height: 150px;
+}
+#gap {
+    height: 280px;
+    width: 92%;
+}
+#kateSpade {
+    margin-top: 20px;
+    height: 120px;
+}
+#jCrew {
+    height: 140px;
+    width: 90%;
+}
+#asos {
+    height: 150px;
+    width: 92%
+}
+#sephora {
+    height: 80px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+
+h5 {
+    text-transform: none;
+    font-style: italic;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "avenir", sans-serif;
+}
+
+#kandjdiaries {
+    width: 100%;
+    height: 400px;
+    padding-top: 100px;
+}
+
+
+
+
+
+/*IMAGE SLIDESHOW STYLING*/
+img {
+    width: 100%;
+    height: auto;
+    /*    transform: scale(.2)*/
+}
+
+#photos {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+
+#instagram-footer {
+    padding-top: 80px;
+    width: 100%;
+    height: auto;
+}
+#instaMainPhoto {
+    position: relative;
+    margin-left: -54px;
+    transition: all 0.2s ease-in-out;
+}
+#instaMainPhoto:hover {
+    opacity: 0.3;
+    transition: all 0.2s ease;
+}
+#instaFoot {
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+/*
+#insta:hover {
+    display: inline-block;
+    text-align: center;
+    margin-left: -65px;
+    background: rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 500px;
+}
+*/
+#instagramBottom {
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+}
+.imageWrap {
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#footerImage1 {
+    width: 10%;
+    height: ;
+    display: inline-block;
+    margin: -2px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+#footerImage1:hover {
+    opacity: 0.8;
+    transition: all 0.5s ease;
+}
+#image1 {
+    vertical-align: middle;
+}
+
+
+.footer_buttons {
+    padding-top: 20px;
+    text-align: center;
+    font-style: italic;
+}
+#loadMore {
+    background: rgba(0,0,0, 0.8);
+    color: white;
+    height: 40px;
+}
+#instaFollow {
+    background: rgb(94,133,190);
+    height: 40px;
+}
+#loadMore:hover {
+    opacity: 0.8;
+}
+#instaFollow:hover {
+    opacity: 0.8;
+}
+.footer_buttons .fa {
+    font-size: 18px;
+    color: black;
+}
+.footer_buttons .fa:hover {
+    color: #f3c3ac;
+}
+
+
+@media (min-width: 1200px) {
+    .carousel-inner {
+        margin-top: 30px;
+        left: 10px;
+        height: 450px;
+        width: 94%;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 990px) {
+    .wishlist .sideTitle #myCarousel {
+        height: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    #footerImage1 {
+        width: 20%;;
+        height: auto;
+    }
+    
+    .wishlist .sideTitle #myCarousel {
+        height: 550px;
+    }
+    .wishlist .sideTitle #myCarousel .carousel-inner {
+        height: 600px;
+    }
+    .wishlist .sideTitle #myCarousel img {
+        height: 550px;
+        width: auto;
+        margin-left: 40px;
+    }
+    .glyphicon.glyphicon-chevron-right,
+    .glyphicon.glyphicon-chevron-left {
+        top: 100px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    
+    .wishlist .sideTitle #nordstrom {
+        padding-left: 25%;
+        padding-right: 25%;
+        width: 90%;
+        height: auto;
+    }
+    .wishlist .sideTitle #gap {
+        width: 90%;
+        height: auto;
+    }
+    .wishlist .sideTitle #kateSpade {
+        width: 90%;
+        height: auto;
+    }
+    .wishlist .sideTitle #jCrew {
+        width: 90%;
+        height: auto;
+    }
+    .wishlist .sideTitle #asos {
+        width: 90%;
+        height: auto;
+    }
+    .wishlist .sideTitle #sephora {
+        width: 90%;
+        height: auto;
+    }
+    
+    .socialMedia3 {
+        
+    }
+}
+@media (max-width: 700px) {
+    #footerImage1 {
+        width: 50%;;
+        height: auto;
+    }
+}
+@media (max-width: 600px) {
+    #footerImage1 {
+        width: 100%;;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************************/
+/*NAV BAR*/
+/* A simple, css only, (some-what) responsive menu */
+.wrap {
+    display: inline-block;
+    -webkit-box-shadow: 10 10 70px #000000;
+    -moz-box-shadow: 10 10 70px #000000;
+    box-shadow: 10 10 70px #000000;
+    margin-top: 0px;
+}
+
+
+/* a little "umph" */
+.decor {
+    background: #000000;
+    background: -webkit-linear-gradient(left, #6D5C2E 50%, #686868 50%);
+    background: -moz-linear-gradient(left, #6D5C2E 50%, #686868 50%);
+    background: -o-linear-gradient(left, #6D5C2E 50%, #686868 50%);
+    background: linear-gradient(left, #6D5C2E 50%, #686868 50%);
+    padding: 0px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+    text-align: left;
+    z-index: 10;
+}
+
+li {
+    font-size: 12px;
+    float: left;
+}
+
+
+/* clear'n floats */
+ul:after {
+    clear: both;
+}
+
+ul:before,
+ul:after {
+    content: " ";
+    display: table;
+}
+
+nav {
+    position: relative;
+    background: #FFFFFF;
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 40%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #FFFFFF 7%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #FFFFFF 7%, #FFFFFF 100%);
+    background-image: linear-gradient(bottom, #FFFFFF 7%, #FFFFFF 100%);
+    text-align: center;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+
+/* prime */
+/*MAIN TAB COLOR*/
+ul.primary li a {
+    display: inline-block;
+    padding: 3px 25px;
+    color: black;
+    text-decoration: none;
+}
+
+ul.primary li:last-child a {
+    border-right: none;
+}
+
+ul.primary li a:hover {
+    color: black;
+}
+
+
+/* subs */
+ul.sub {
+    position: absolute;
+    /*    border: 2px solid silver;*/
+    width: 29.2%;
+    display: none;
+}
+
+ul.sub li {
+    margin: 0px;
+}
+
+ul.sub li a {
+    border-bottom: 1px solid #F5F5F5;
+    width: 150px;
+    color: #000;
+    padding: 20px 10px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: -40px;
+    box-shadow: 2px 1px 2px #B3B3B3;
+    text-decoration: none;
+}
+
+ul.sub li:last-child a {
+    border-bottom: none;
+}
+
+/*TAB HOVER COLOR*/
+#hover:hover {
+    background: #fee6db;
+}
+
+
+/* sub display*/
+ul.primary li:hover ul {
+    display: inline-block;
+}
+
+
+/* keeps the tab background white */
+/*TEXT COLOR ON HOVER IS HERE*/
+/*TEXT BOX BACKGROUND COLOR*/
+ul.primary li:hover a {
+    background: -webkit-linear-gradient(bottom, #FFFFFF 90%, #FFFFFF 100%);
+    background: -moz-linear-gradient(bottom, #FFFFFF 50%, #FFFFFF 100%);
+    background: -o-linear-gradient(bottom, #FFFFFF 50%, #FFFFFF 100%);
+    background: linear-gradient(bottom, #FFFFFF 50%, #FFFFFF 100%);
+    opacity: 1;
+    color: black;
+    text-shadow: none;
+}
+
+ul.primary li:hover>a {
+    color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+    .decor {
+        padding: 3px;
+    }
+    .wrap {
+        width: 100%;
+        margin-top: 0px;
+    }
+    li {
+        float: none;
+    }
+    ul.primary li:hover a {
+        background: none;
+        color: #8B8B8B;
+        text-shadow: 1px 1px #000;
+    }
+    ul.primary li:hover ul {
+        display: block;
+        background: #272727;
+        color: #fff;
+    }
+    ul.sub {
+        display: block;
+        position: static;
+        box-shadow: none;
+        width: 100%;
+    }
+    ul.sub li a {
+        background: #272727;
+        border: none;
+        color: #8B8B8B;
+    }
+    ul.sub li a:hover {
+        color: #ccc;
+        background: none;
+    }
+}

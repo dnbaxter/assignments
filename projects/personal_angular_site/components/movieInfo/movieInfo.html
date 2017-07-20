@@ -1,0 +1,48 @@
+<!--<h1>Stuff</h1>-->
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-4" ng-repeat="film in films">
+            <div class="mainContainer">
+                <div class="movieList" >
+                    <img ng-src=" {{film.poster}} " />
+                    <br>
+                    <h2 style="color:#B31414; padding-top:7px;">Title: {{film.show_title}} </h2>
+                    <h4> Category: {{film.category}} </h4>
+                    <h4> Director: {{film.director}} </h4>
+                    <h5> Cast: {{film.show_cast}} </h5>
+                    <p> Release year: {{film.release_year}} </p>
+                    <p> Summary: {{film.summary}} </p>
+                    <p style="color:goldenrod;">Rating: {{film.rating}} </p>
+
+<!--                    <a href="#!/about/{{film.show_id}}"> {{film.show_title}} </a>-->
+<!--                    <button><a href="https://www.netflix.com/watch/trackId={{film.show_id}}">Watch now!</a></button>-->
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<div class="row">
+    <div class="col-sm-4">
+        <div class="movieTitleList">
+        <img ng-src=" {{movieTitles.poster}} " />
+        <h2 style="color:#B31414; padding-top:7px;">Title: {{movieTitles.show_title}} </h2>
+        <h4> Category: {{movieTitles.category}} </h4>
+        <h4> Director: {{movieTitles.director}} </h4>
+        <p> Summary: {{movieTitles.summary}} </p>
+        <br><br>
+    </div>
+    </div>
+</div>
+    
+
+
+
+
+</div>

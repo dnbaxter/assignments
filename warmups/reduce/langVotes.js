@@ -9,24 +9,24 @@
 
 var votes = ["angular", "react", "react", "angular", "react", "ember", "vanilla", "angular", "react", "meteor", "angular"];
 
-function countVotes(arr) {
-    var result = {};
-
-    if (arr instanceof Array) {
-        arr.forEach(function (v, i) {
-            if (!result[v]) {
-                result[v] = [i];
-            } else {
-                result[v].push(i);
-            }
-        });
-        Object.keys(result).forEach(function (v) {
-            result[v] = {"length": result[v].length};
-        });
-    }
-    return result;
-}
-console.log(countVotes(votes));
+// function countVotes(arr) {
+//     var result = {};
+//
+//     if (arr instanceof Array) {
+//         arr.forEach(function (v, i) {
+//             if (!result[v]) {
+//                 result[v] = [i];
+//             } else {
+//                 result[v].push(i);
+//             }
+//         });
+//         Object.keys(result).forEach(function (v) {
+//             result[v] = {"length": result[v].length};
+//         });
+//     }
+//     return result;
+// }
+// console.log(countVotes(votes));
 
 
 

@@ -1,0 +1,79 @@
+body {
+    background-color: #333;
+    color: whitesmoke;
+}
+
+.btn {
+    background-color: #B31414;
+}
+
+
+.mainImage, img {
+    box-shadow: 5px 5px 5px #700000;
+    transition: all 0.5s ease;
+    display: inline-block;
+    
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    margin-bottom: -20px;
+    margin-top: 40px;
+}
+.mainImage {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    margin-bottom: -20px;
+    margin-top: 40px;
+    text-align: center;
+}
+.mainImage:hover, img:hover {
+    box-shadow: none;
+    transition: all 0.5s ease; 
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: ;
+}
+
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+li a:active {
+    color: ;
+    text-decoration: none;
+}
+li a:visited {
+    text-decoration: none;
+    color: white;
+/*    color: silver;*/
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #B31414;
+}

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" />
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>K & J Diaries</title>
+</head>
+
+
+
+<body class="mainPage">
+    <header id="header">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <a href="http://kandjdiaries.com"><img id="headerLogo" src="http://kandjdiaries.com/wp-content/themes/k_and_j/img/logo-h.png"></a>
+                </div>
+                <div class="col-sm-9 col-md-6 hidden-xs">
+                    <div class="wrap">
+                        <span class="decor"></span>
+                        <nav>
+
+                            <ul class="primary">
+                                <li>
+                                    <a href="index.html">Categories</a>
+                                    <ul class="sub">
+                                        <li><a href="" id="hover">Fashion</a></li>
+                                        <li><a href="" id="hover">Beauty</a></li>
+                                        <li><a href="" id="hover">Lifestyle</a></li>
+                                        <li><a href="" id="hover">Materity Chic</a></li>
+                                        <li><a href="" id="hover">Recipes</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">About</a>
+                                    <ul class="sub">
+                                        <li><a href="" id="hover">Bio</a></li>
+                                        <li><a href="" id="hover">Press</a></li>
+                                        <li><a href="" id="hover">FAQ</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="">Contact</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+
+                <div class="col-md-2 hidden-xs hidden-sm">
+                    <div id="irrelevantContainer">
+                        <div class="form-group has-feedback">
+                            <label class="control-label"></label>
+                            <input type="text" placeholder="Search" class="form-control input-lg" style="box-shadow:10px 10px 1px white">
+                            <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+    <!--    IMAGE SLIDE SHOW-->
+    <!--
+    <section id="slideshow" style="max-height: 735px;">
+        <header id="header">
+            <div class="container-fluid">
+                <div id="photos">
+                   <div id="photos">
+                        <img src="http://kandjdiaries.com/wp-content/uploads/2016/06/DSC_0081.jpg" />
+                        <img src="http://kandjdiaries.com/wp-content/uploads/2016/06/DSC_0192.jpg" />
+                        <img src="http://kandjdiaries.com/wp-content/uploads/2016/05/skin1.jpg" />
+                        <img src="http://kandjdiaries.com/wp-content/uploads/2016/06/slider-pic3.jpg" />
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+-->
+    <section id="photos" style="max-height: 635px; background-image: image('http://kandjdiaries.com/wp-content/uploads/2016/06/slider-pic3.jpg');">
+        <img src="http://kandjdiaries.com/wp-content/uploads/2016/06/DSC_0081.jpg" id="photo1" />
+        <img src="http://kandjdiaries.com/wp-content/uploads/2016/06/DSC_0192.jpg" id="photo2" style="display:none;" />
+        <img src="http://kandjdiaries.com/wp-content/uploads/2016/05/skin1.jpg" id="photo3" style="display:none;" />
+        <img src="http://kandjdiaries.com/wp-content/uploads/2016/06/slider-pic3.jpg" id="photo4" style="display:none;" />
+    </section>
+
+
+
+
+
+    <section class="bar" id="email">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <div class="form-group has-feedback">
+                        <label class="control-label"></label>
+                        <input type="text" placeholder="EMAIL ADDRESS" id="secondInput" class="form-control input-lg">
+                        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--   BLOG LAYOUT-->
+    <div class="container">
+        <div class="row">
+            <div id="mainBlog" class="col-sm-8">
+                <header>
+                    <div class="row">
+                        <div class="col-sm-offset-4 col-sm-4">
+                            <h2><span>Jan 31, 2017</span></h2>
+                        </div>
+                    </div>
+                    <h1><a href="http://kandjdiaries.com/2017/01/beauty-spotlight-be-legendary-lipsticks-by-smashbox/">Beauty Spotlight: Be Legendary Lipsticks by Smashbox</a></h1>
+                    <p class="categories" style="font-style:italic"><a href="http://kandjdiaries.com/category/beauty/" rel="category tag">Beauty</a></p>
+                </header>
+
+                <div class="blogBody">
+                    <img src="http://kandjdiaries.com/wp-content/uploads/2017/01/DSC_0390.jpg" class="blogImg1" />
+                    <p class="post">Are those lipsticks gorgeous or what?! If you follow me on Instagram (@kandjdiaries) you might of seen a little review on these lipsticks already. I am trying to do better at documenting everything on my blog and not just on Instagram or Snapchat! Oh boy, I love Snapchat so much. I talk often about products and [...]</p>
+
+                    <a class="more-link" href="http://kandjdiaries.com/2017/01/beauty-spotlight-be-legendary-lipsticks-by-smashbox/">Read More</a>
+                </div>
+
+                <footer>
+                    <span class="socialMedia">
+                       <a href="https://twitter.com/">
+                        <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="https://pinterest.com/">
+                        <i class="fa fa-pinterest"></i>
+                        </a>
+                        <a href="https://facebook.com/">
+                        <i class="fa fa-facebook-square"></i>
+                        </a>
+                    </span>
+                    <span class="comments">
+                        0 Comments
+                    </span>
+                </footer>
+
+                <div class="related">
+                    <div class="relatedBox">
+                        <h3><span>Related</span></h3>
+                        <img src="http://kandjdiaries.com/wp-content/uploads/2015/04/legs-post-150x150.jpg" class="relatedImages" />
+                        <img src="http://kandjdiaries.com/wp-content/uploads/2016/04/DSC05205-150x150.jpg" class="relatedImages" />
+                        <img src="http://kandjdiaries.com/wp-content/uploads/2016/04/DSC_0171-150x150.jpg" class="relatedImages" />
+                        <img src="http://kandjdiaries.com/wp-content/uploads/2016/09/DSC_0009-150x150.jpg" class="relatedImages" />
+                        <h3> </h3>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <aside id="sideBlog" class="col-sm-4 col-md-4">
+
+
+                <div class="socialMedia2">
+                    <div class="sideTitle">
+                        <span>Follow</span>
+
+                       <div class="row">
+                           <div class="col-xs-12">
+                               <ul>
+                            <li class="socialMedia3">
+                                <a href="https://facebook.com/">
+                                    <i class="fa fa-facebook" id="socialSM"></i>
+                                </a>
+                                <a href="https://instagram.com/">
+                                    <i class="fa fa-instagram" id="socialSM"></i>
+                                </a>
+                                <a href="https://twitter.com/">
+                                    <i class="fa fa-twitter" id="socialSM"></i>
+                                </a>
+                                <a href="https://pinterest.com/">
+                                    <i class="fa fa-pinterest" id="socialSM"></i>
+                                </a>
+                            </li>
+                        </ul>
+                           </div>
+                       </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="subscribe">
+                    <div class="sideTitle">
+                        <span>Subscribe</span>
+
+                        <p class="subscribe2">Be the first to know...</p>
+
+                        <div class="form-group has-feedback">
+                            <label class="control-label"></label>
+                            <input type="text" placeholder="EMAIL ADDRESS" id="thirdInput" class="form-control input-sm">
+                            <span class="glyphicon glyphicon-envelope form-control-feedback" id="envelope"></span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wishlist">
+                    <div class="sideTitle">
+                        <span>Wishlist</span>
+
+
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                            <!-- Indicators -->
+                            <!--
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+-->
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="http://images.rewardstyle.com/img?v=2.13&p=n_19542151" style="width:90%;">
+                                </div>
+
+                                <div class="item">
+                                    <img src="http://images.rewardstyle.com/img?v=2.13&p=n_19542167" style="width:90%;">
+                                </div>
+
+                                <div class="item">
+                                    <img src="http://images.rewardstyle.com/img?v=2.13&p=n_19542223" style="width:90%;">
+                                </div>
+
+                                <div class="item">
+                                    <img src="http://images.rewardstyle.com/img?v=2.13&p=n_19289111" style="width:90%;">
+                                </div>
+
+                                <div class="item">
+                                    <img src="http://images.rewardstyle.com/img?v=2.13&p=n_14034171" style="width:90%;">
+                                </div>
+
+                                <div class="item">
+                                    <img src="http://images.rewardstyle.com/img?v=2.13&p=n_12937879" style="width:90%;">
+                                </div>
+
+                                <div class="item">
+                                    <img src="http://images.rewardstyle.com/img?v=2.13&p=n_19542299" style="width:90%;">
+                                </div>
+
+                                <div class="item">
+                                    <img src="http://images.rewardstyle.com/img?v=2.13&p=n_13686639" style="width:90%;">
+                                </div>
+
+                                <div class="item">
+                                    <img src="http://images.rewardstyle.com/img?v=2.13&p=n_11853383" style="width:90%;">
+                                </div>
+
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <h5 id="slidetext"></h5>
+
+                    </div>
+                </div>
+
+
+                <div class="wishlist">
+                    <div class="sideTitle">
+                        <span>Favorites</span>
+
+                        <img src="http://kandjdiaries.com/wp-content/uploads/2014/09/nordstrom-logo.jpeg" id="nordstrom" />
+                        <img src="http://kandjdiaries.com/wp-content/uploads/2014/09/gap-logo.jpg" id="gap" />
+                        <img src="http://kandjdiaries.com/wp-content/uploads/2014/09/kate-spade-logo.png" id="kateSpade" />
+                        <img src="http://kandjdiaries.com/wp-content/uploads/2014/09/j.crew-logo.jpg" id="jCrew" />
+                        <img src="http://kandjdiaries.com/wp-content/uploads/2014/09/asos-logo.jpg" id="asos" />
+                        <img src="http://kandjdiaries.com/wp-content/uploads/2014/09/sephora-logo.jpg" id="sephora" />
+
+                    </div>
+                </div>
+
+
+
+
+            </aside>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <section id="instagram-footer">
+                <h2 id="instaFoot">K&J Instagram</h2>
+                <img src="https://hootsuite.com/uploads/images/craft/components/logos/instagram-circle-logo-2_large.png" style="width:auto; height:50px;" />
+                <img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/18160785_402508050147779_5908654811972108288_a.jpg" id="instaMainPhoto" style="height:50px; width:auto; border-radius:100px;" class="instaPhoto" />
+                <!--                <span id="insta"><i class="fa fa-instagram" style="color:white;"></i></span>-->
+                <a href="http://instagram.com/kandjdiaries" class="instaInfo" target="_blank" title="@kandjdiaries">
+                    <h3 style="font-size:18px; font-style:italic; margin-left:0px; margin-top:20px;">@kandjdiaries</h3>
+                    <p class="instaInfo" style="font-size:12px; font-family: avenir, sans-serif; font-style:italic; margin-left:0px; margin-top:-10px;">Wife. Mommy 🙋🏻‍♂️🙋🏻🐶 | International Blogger | Photographer | Creative Director 💗✉️: info@kandjdiaries.com 👻:jessicahinkson8 📺🎥:Soon</p>
+                </a>
+
+                <div id="instagramBottom">
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://image.ibb.co/g49miF/Screen_Shot_2017_05_23_at_10_58_46_AM.png" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/18443536_683812805122429_8561475954013110272_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/18443570_262124134256350_3706507977029582848_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/18443215_744120109100141_963959981718110208_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/18251835_976166755853485_6262463261355016192_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/18160237_1891063527828220_4730452313817219072_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/18096535_1676311852671108_3034370136648712192_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/18094546_100123607223440_1025454704986947584_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/17881843_112055802641693_581047253389541376_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/18013817_1942948959273271_3190015958999629824_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    
+<!--                    SECOND INSTAGRAM ROW-->
+<!--                    SECOND INSTAGRAM ROW-->
+<!--                    SECOND INSTAGRAM ROW-->
+<!--                    SECOND INSTAGRAM ROW-->
+                  <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://image.ibb.co/eWF93F/Screen_Shot_2017_05_23_at_11_02_21_AM.png" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/17817713_249525872178068_3415502223075966976_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/17817873_136211716914474_1059100177408720896_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/17817695_197679234067294_220001758343069696_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/17586704_604266079766800_2503781993003614208_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/17817674_210490012771099_7420858633061138432_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/17586566_755255851309537_1341357413692866560_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/17663457_185378588641281_6122294186151510016_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/17493654_1054849024647663_5608261298891522048_n.jpg" />
+                        </div>
+                    </div>
+                    
+                    <div id="footerImage1">
+                        <div class="imageWrap">
+                            <img src="https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/17662303_1228759920570222_3716945786940948480_n.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <br>
+                
+                
+                
+                
+            </section>
+        </div>
+    </div>
+    <div class="footer_buttons">
+                    <button type="button" id="loadMore" class="btn btn-default">Load More...</button>
+                
+                    <button type="button" id="instaFollow" class="btn btn-primary"><i class="fa fa-instagram"></i>Follow on Instagram</button>
+                </div>
+
+<br>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

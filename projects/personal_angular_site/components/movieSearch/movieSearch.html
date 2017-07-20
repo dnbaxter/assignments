@@ -1,0 +1,61 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-offset-2 col-xs-8">
+            <div class="form-group">
+
+                <!--       Actor Input        -->
+                <label class="control-label" style="text-align:center;">Search the Netflix Database</label>
+                <input class="form-control input-md" type="text" name="actor" placeholder="Actor's Name - Optional" ng-model="actor.firstName">
+
+                <!--                <input class="form-control input-md" type="text" name="actor" placeholder="Actor's Last Name - Optional" ng-model="actor.lastName">-->
+                <!--       Actor Submit        -->
+<!--
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button class="btn btn-danger btn-block btn-md" role="submit" id="1" ><span class="glyphicon glyphicon-search"></span> Search Database Using Actor</button>
+                    </div>
+                </div>
+-->
+
+                <!--       Director Input        -->
+                <br>
+                <input class="form-control input-md" type="text" name="director" placeholder="Director's first name - Optional" ng-model="director.directorName">
+
+
+                <br>
+                <input class="form-control input-md" type="text" name="title" placeholder="Movie Title - Optional" ng-model="title.movieTitle">
+                
+                <br>
+                <div class="input-group">
+                    <!--       Director Submit        -->
+                    <div class="input-group-btn">
+                        <button class="btn btn-danger btn-block btn-md" role="submit" style="border-radius:5px;" id="2" ng-click="getMovieRequest(actor, director, title, year)"><span class="glyphicon glyphicon-search"></span> Search Database</button>
+                    </div>
+                </div>
+                
+<!--
+                <br>
+                <input class="form-control input-md" type="text" name="year" placeholder="Movie Year - Optional" ng-model="year.movieYear">
+                <br>
+-->
+
+
+
+            </div>
+            <!--Form Group-->
+        </div>
+    </div>
+</div>
+<!--Container-->
+
+
+<!--
+<div class="movieList" ng-repeat="film in films">
+    <img ng-src=" {{film.poster}} "/>
+    <h1>Title: {{film.show_title}} </h1>
+    <h3> Category: {{film.category}} </h3>
+    <h3> Director: {{film.director}} </h3>
+    <p> Summary: {{film.summary}} </p>
+    <br><br>
+</div>
+-->

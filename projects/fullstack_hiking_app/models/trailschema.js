@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 
-var trailScheme = new mongoose.Schema({
+var trailSchema = new mongoose.Schema({
 
     trailName: String,
     difficulty: Number,
@@ -17,4 +17,5 @@ var trailScheme = new mongoose.Schema({
 
 });
 
-var trail = mongoose.model("trail", trailScheme);
+var trail = mongoose.model("trail", trailSchema);
+module.exports = trail;

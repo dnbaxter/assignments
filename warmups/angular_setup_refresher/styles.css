@@ -1,0 +1,23 @@
+body {
+    background: crimson;
+}
+.container {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 50%;
+    background: darkgray;
+    border-radius: 20px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+#addition {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: left;
+}
+#multiplication {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: left;
+}

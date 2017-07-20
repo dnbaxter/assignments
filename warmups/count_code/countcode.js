@@ -9,7 +9,22 @@ countCode("cozexxcope");
 
 
 
+function checkNumberPalindrome(num) {
+    num2 = num + "";
+    num2 = num2.split("").reverse().join("");
+    
+    if (num2 != num) {
+        return false;
+    } else {
+        return true;
+    }
+}
 
+console.log(checkNumberPalindrome(1232));
+console.log(checkNumberPalindrome(12321));
+console.log(checkNumberPalindrome(111));
+console.log(checkNumberPalindrome(112));
+console.log(checkNumberPalindrome(121));
 
 
 

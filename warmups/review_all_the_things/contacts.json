@@ -1,0 +1,110 @@
+[
+    {
+        "firstName": "Basia",
+        "lastName": "Baldwin",
+        "email": "quam.dignissim.pharetra@vulputatemauris.edu",
+        "type": "personal"
+	},
+    {
+        "firstName": "Xanthus",
+        "lastName": "Jacobson",
+        "email": "Phasellus.nulla@gravidaPraesenteu.ca",
+        "type": "personal"
+	},
+    {
+        "firstName": "Daryl",
+        "lastName": "David",
+        "email": "Nulla@a.net",
+        "type": "personal"
+	},
+    {
+        "firstName": "Gemma",
+        "lastName": "Fischer",
+        "email": "est.ac.facilisis@natoquepenatibus.co.uk",
+        "type": "personal"
+	},
+    {
+        "firstName": "Scott",
+        "lastName": "Garza",
+        "email": "amet.orci@metus.ca",
+        "type": "personal"
+	},
+    {
+        "firstName": "Zena",
+        "lastName": "Carey",
+        "email": "ligula.Aenean.euismod@scelerisque.edu",
+        "type": "personal"
+	},
+    {
+        "firstName": "Abra",
+        "lastName": "Rowe",
+        "email": "lobortis.nisi.nibh@volutpatNulla.edu",
+        "type": "business"
+	},
+    {
+        "firstName": "Remedios",
+        "lastName": "Hurley",
+        "email": "Nunc.pulvinar@apurusDuis.ca",
+        "type": "business"
+	},
+    {
+        "firstName": "Cody",
+        "lastName": "Conner",
+        "email": "Nam.ligula.elit@Nuncmauriselit.com",
+        "type": "business"
+	},
+    {
+        "firstName": "Ashely",
+        "lastName": "Valenzuela",
+        "email": "elit@Donecegestas.co.uk",
+        "type": "business"
+	},
+    {
+        "firstName": "Ignatius",
+        "lastName": "Page",
+        "email": "vestibulum@mieleifendegestas.org",
+        "type": "business"
+	},
+    {
+        "firstName": "Fritz",
+        "lastName": "Vincent",
+        "email": "eros.Proin@arcuVestibulum.com",
+        "type": "business"
+	},
+    	{
+		"firstName": "Kyle",
+		"lastName": "Cole",
+		"email": "lobortis@orciluctuset.net",
+        "type": "business"
+	},
+	{
+		"firstName": "Fleur",
+		"lastName": "Barry",
+		"email": "vitae.purus@Fuscefermentumfermentum.co.uk",
+        "type": "business"
+	},
+	{
+		"firstName": "Karly",
+		"lastName": "Hendrix",
+		"email": "porttitor@turpisnonenim.co.uk",
+        "type": "personal"
+	},
+	{
+		"firstName": "Keaton",
+		"lastName": "Phelps",
+		"email": "enim@mattis.co.uk",
+        "type": "personal"
+	},
+    {
+        "firstName": "Abra",
+        "lastName": "Rowe",
+        "email": "lobortis.nisi.nibh@volutpatNulla.edu",
+        "type": "school"
+	},
+    {
+        "firstName": "Remedios",
+        "lastName": "Hurley",
+        "email": "Nunc.pulvinar@apurusDuis.ca",
+        "type": "school"
+	}
+]

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Angular Refresher</title>
+</head>
+
+
+
+
+
+
+<body ng-controller="mainController">
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <form name="myForm" ng-submit="submit(num)" style="display:inline-block;">
+                    <input number type="text" ng-model="num.Number1"> +
+                    <input number type="text" ng-model="num.Number2">
+
+                    <br>
+                    <br>
+                    <input type="submit" ng-disabled="myForm.$invalid" id="submit" value="Submit" class="btn btn-primary" />
+                </form>
+                <h3 id="addition"> total = {{sum}}</h3>
+
+
+
+                <form name="myForm" ng-submit="submit2(product)" style="padding-top:10px;">
+                    <input number type="text" ng-model="product.Number3"> x
+                    <input number type="text" ng-model="product.Number4">
+                    <br>
+                    <br>
+                    <input type="submit" ng-disabled="myForm.$invalid" id="submit" value="Submit" class="btn btn-primary" />
+                </form>
+                <h3 id="multiplication"> total = {{multiply}} </h3>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -14,7 +14,7 @@ body {
   color: #333;
   line-height: 140%;
   background-color: #F5F3F5;
-  border-top: 10px solid #01579b;
+  border-top: 10px solid #6E0000;
 }
 hr {
   margin-top: 2em;
@@ -75,12 +75,12 @@ p {
   background: #eee;
 }
 a {
-  color: #2098D1;
+  color: #6E0000;
   text-decoration: none;
 }
 .footer a:hover,
 .nav:hover {
-  color: #207AD1;
+  color: #6E0000;
 }
 .intro,
 .download {
@@ -101,7 +101,7 @@ a {
   vertical-align: top;
 }
 .download a.download-btn {
-  background-color: #01579b;
+  background-color: #6E0000;
   width: 100%;
   padding: 12px 0;
   display: block;
@@ -110,7 +110,7 @@ a {
   transition: all 0.2s ease;
 }
 .download a.download-btn:hover {
-  background-color: #0165b4;
+  background-color: #6E0000;
 }
 .download p.version {
   margin: 10px 0;
@@ -222,7 +222,7 @@ pre.prettyprint {
 #forkongithub a:hover,
 #forkongithub a:focus,
 #forkongithub a:active {
-  background: #2098D1;
+  background: #6E0000;
   color: #fff;
 }
 #forkongithub a::before,

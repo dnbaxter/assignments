@@ -1,3 +1,4 @@
+/*
 .box {
     width: 300px;
     height: 300px;
@@ -6,9 +7,8 @@
     border: 1px solid #333;
     box-shadow: 10px 10px 5px 0 #999;
     border-radius: 5%;
-    
     transition: all .9s ease-in-out
-/*
+    
     transition-property: all;
     transition-duration: .5s;
     transition-timing-function: ease-in-out;
@@ -17,12 +17,105 @@
         2. transition-duration:
         3. transition-timing-function:
         4. transition-delay: 
-*/
 
 }
+*/
+img {
+    height: 500px;
+    width: 100%;
+}
 
-.box:hover {
-    box-shadow: none;
-    border-radius: 90%;
-    background-color: antiquewhite;
+/*
+.fadein img {
+    position:absolute;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 22s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 22s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#f1 {
+    -webkit-animation-delay: -22s;
+}
+#f2 {
+    -webkit-animation-delay: -17s;
+}
+#f3 {
+    -webkit-animation-delay: -11s;
+}
+#f4 {
+    -webkit-animation-delay: -5s;
+}*/
+
+
+
+/*
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+li {
+  position: absolute;
+  margin-top: 3%;
+}
+img{
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 hsla(0,0%,30%, .3);
+}
+li:nth-child(4) {
+  animation: xfade 22s 0s infinite;
+}
+li:nth-child(3) {
+  animation: xfade 22s 5.5s infinite;
+}
+li:nth-child(2) {
+  animation: xfade 22s 11s infinite;
+}
+li:nth-child(1) {
+  animation: xfade 22s 16.5s infinite;
+}
+@keyframes xfade{
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+}*/
+
+
+
+
+
+#photos img {
+  position:absolute;
+  z-index:0;
+}
+#photos {
+  width:640px;
+  height:480px;
+  overflow:hidden;
 }
