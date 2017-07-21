@@ -12,7 +12,8 @@ import reducers from "./reducers/";
 
 // Components
 import Header from "./components/header";
-import ColorBoxContainer from "./containers/colorbox-container";
+import FormContainer from "./containers/form-container";
+import TodoListContainer from "./containers/todo-list-container";
 
 // Create Store
 const store = createStore(reducers, applyMiddleware(thunk));
@@ -26,9 +27,14 @@ class App extends React.Component {
                 <Header  />
                 <div className="container">
                     <div className="row">
-                        <ColorBoxContainer  />
-                    </div>
-                </div>
+                        <div className="col-sm-12">
+                            <FormContainer  />
+                        </div>
+
+                        <TodoListContainer  />
+
+                    </div> {/* row */}
+                </div> {/* container */}
 
             </div>
         )

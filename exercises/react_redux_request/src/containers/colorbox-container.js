@@ -14,7 +14,7 @@ class ColorBoxContainer extends React.Component {
         return (
             <div>
 
-                <ColorBox handleClick={this.props.partyTime} style={this.props.style} />
+                <ColorBox hex={this.props.hex} colorName={this.props.colorName} handleClick={this.props.loadColor} style={this.props.style} />
 
             </div>
         )

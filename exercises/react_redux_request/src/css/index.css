@@ -16,13 +16,23 @@ body {
 }
 .party-box {
     margin-top: 30px;
-    height: 400px;
-    width: 400px;
+    border-radius: 100%;
+    height: 500px;
+    width: 500px;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    box-shadow: 2px 2px 20px black;
+}
+.party-box .btn {
+    top: 0;
+    bottom: 0;
 }
 .btn {
     background-color: slategray;
     border: none;
+    /*position: fixed;*/
+}
+.btn:focus {
+    background-color: slategray;
 }
