@@ -16,8 +16,8 @@ export function loadColor() {
                 for(let i = 0; i < response.data.colors[0].tags.length; i++) {
                     fullColor.push(response.data.colors[0].tags[i].name);
                 }
-                // console.log(fullColor.join(" "));
-                colorName = fullColor.join(" ");
+                console.log("initial: " + fullColor.join(" "));
+                colorName = fullColor.reverse().join(" ");
                 dispatch(partyTime(color, colorName));
 
             } else {

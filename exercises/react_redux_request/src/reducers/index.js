@@ -10,7 +10,7 @@ let defaultState = {
 const mainReducer = (state = defaultState, action) => {
 
     if (action.type === "PARTY_TIME") {
-        let hex = action.color
+        let hex = action.color;
         let name = action.colorName;
         console.log("Hex: " + hex);
         console.log("Name: " + name);

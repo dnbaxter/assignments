@@ -23,6 +23,8 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: 2px 2px 20px black;
+    color: whitesmoke;
+    text-shadow: 01px 0px 4px black;
 }
 .party-box .btn {
     top: 0;
