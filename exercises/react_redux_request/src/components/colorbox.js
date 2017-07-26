@@ -13,7 +13,7 @@ class ColorBox extends React.Component {
                     {/*}} className="btn btn-primary" >Party Time!</button>*/}
                     <br/>
                     <h2> {this.props.hex} </h2>
-                    <h2> {this.props.colorName} </h2>
+                    <h2 style={{width: "50%"}}> {this.props.colorName} </h2>
                 </div>
 
             </div>

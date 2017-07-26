@@ -14,7 +14,7 @@ app.service("yodaSpeakService", ["$http", function ($http, textInput) {
             })
             .then(function (response) {
                 return response;
-            }, function (response, error) {
+            }, function (response) {
                 return response;
             })
 

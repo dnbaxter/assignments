@@ -27,11 +27,11 @@ h1 	{
 	top: 80px;
 	bottom: 0;
 	width: 100%;
-    height: auto;
+    height: 100%;
 	background-image: url(http://4.bp.blogspot.com/-b2qrsbJOEKQ/Vmh4FOkapVI/AAAAAAAALgQ/1gDUT2G_6g4/s1600/Star-Wars-Episode-V-The-Empire-Strikes-Back-Yoda-Luke.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position:left;
+	background-position:center;
 }
 
 
@@ -40,4 +40,11 @@ h1 	{
 	background: rgba(100,100,100,.4);
 	box-shadow:  4px 4px 12px 2px rgba(111,111,111,.4);
 	border-radius: .5em;
+}
+
+@media (max-width: 800px) {
+	.image {
+		background-position: 60% 0%;
+		background-size: 100% 80%;
+	}
 }

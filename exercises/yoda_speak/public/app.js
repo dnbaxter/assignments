@@ -13,15 +13,6 @@ app.controller("MainController", ["$scope", "yodaSpeakService", function ($scope
                 $scope.yodaSpeak = response.data;
             })
 
-
-        //        $http.get(yodaUrl + textInput, {
-        //            headers: {
-        //                "X-Mashape-Key": mashapeKey
-        //            }
-        //        })
-        //        .then(function(response, error) {
-        //            $scope.yodaSpeak = (response.data);
-        //        });
     }
 
 }]);

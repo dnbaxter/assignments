@@ -17,14 +17,15 @@ body {
 .party-box {
     margin-top: 30px;
     border-radius: 100%;
-    height: 500px;
-    width: 500px;
+    height: 420px;
+    width: 420px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 2px 2px 20px black;
     color: whitesmoke;
     text-shadow: 01px 0px 4px black;
+    word-wrap: break-word;
 }
 .party-box .btn {
     top: 0;

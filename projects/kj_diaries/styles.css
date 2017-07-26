@@ -374,7 +374,8 @@ img {
 
 #footerImage1 {
     width: 10%;
-    height: ;
+    /*height: ;*/
+    /*visibility: hidden;*/
     display: inline-block;
     margin: -2px;
     transition: all 0.5s ease-in-out;
@@ -423,6 +424,31 @@ img {
     color: #f3c3ac;
 }
 
+.background-images {
+    height: 180px;
+    width: 100%;
+}
+
+.background-images {
+    margin-top: 10px;
+    background: url("https://image.ibb.co/g49miF/Screen_Shot_2017_05_23_at_10_58_46_AM.png"),
+    url("https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/18443536_683812805122429_8561475954013110272_n.jpg"),
+    url("https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/18443570_262124134256350_3706507977029582848_n.jpg"),
+    url("https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/18443215_744120109100141_963959981718110208_n.jpg"),
+    url("https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/18251835_976166755853485_6262463261355016192_n.jpg"),
+    url("https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/18160237_1891063527828220_4730452313817219072_n.jpg"),
+    url("https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/18096535_1676311852671108_3034370136648712192_n.jpg"),
+    url("https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/18094546_100123607223440_1025454704986947584_n.jpg"),
+    url("https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/17881843_112055802641693_581047253389541376_n.jpg"),
+    url("https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/18013817_1942948959273271_3190015958999629824_n.jpg");
+    background-size: 10% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 0% 0%, 11.2% 0%, 22.3% 0%, 33.4% 0%, 44.5% 0%, 55.6% 0%, 66.7% 0%, 77.8% 0%, 88.9% 0%, 100% 0%;
+}
+/** {*/
+    /*border: 1px solid crimson;*/
+/*}*/
 
 @media (min-width: 1200px) {
     .carousel-inner {
