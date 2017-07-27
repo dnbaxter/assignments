@@ -244,32 +244,47 @@ h2 a {
 
 /*MEDIA RESIZING*/
 
-@media (min-width: 1220px) .container {
-    padding: 0;
-}
+/*@media (min-width: 1220px) {*/
+    /*.container {*/
+        /*padding: 0;*/
+    /*}*/
+/*}*/
 
-@media (max-width: 1300px) and (min-width: 1220px) .container {
-    width: 1210px;
-}
+/*@media (max-width: 1300px) and (min-width: 1220px) {*/
+    /*.container {*/
+        /*width: 1210px;*/
+    /*}*/
+/*}*/
 
-@media (min-width: 1220px) .container {
-    max-width: 1300px;
-}
+/*@media (min-width: 1220px) {*/
+    /*.container {*/
+        /*max-width: 1300px;*/
+    /*}*/
+/*}*/
 
-@media (min-width: 992px) .container {
-    max-width: 1100px;
-}
+/*@media (min-width: 992px) {*/
+    /*.container {*/
+        /*max-width: 1100px;*/
+    /*}*/
+/*}*/
 
-@media (min-width: 768px) .container {
-    max-width: 900px;
-}
+/*@media (min-width: 768px) {*/
+    /*.container {*/
+        /*max-width: 900px;*/
+    /*}*/
+/*}*/
 
-@media (min-width: 1220px) {
+/*@media (min-width: 1220px) {*/
+    /*body {*/
+        /*padding: 0;*/
+    /*}*/
+/*}*/
+
+@media (min-width: 1200px) {
     body {
-        padding: 0;
+        background-position: 0% -10%;
     }
 }
-
 @media (max-width: 800px) {
     body {
         background-position: 0px 238px;
@@ -282,6 +297,6 @@ h2 a {
 }
 @media (max-width: 600px) {
     body {
-        background-position: 0px 418px;
+        background-position: 0px 488px;
     }
 }
