@@ -310,4 +310,8 @@ figcaption {
     #myprojects2 {
         height: 800px;
     }
+    .coding-images img {
+        width: auto;
+        height: 70px;
+    }
 }
